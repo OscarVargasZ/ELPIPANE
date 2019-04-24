@@ -7,8 +7,12 @@ li.despegable{
 }
 .nav li ul{
     display: none;
+    
 }
 .nav li:hover > ul{
     display: block;
-
+    z-index: 20000;
+   position: fixed;
+   background: white;
+   right: 10px;
 }
