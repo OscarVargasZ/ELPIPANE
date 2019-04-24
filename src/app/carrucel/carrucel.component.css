@@ -1,4 +1,7 @@
-.carrucel{
-    background-image:url(/src/assets/Ivan.jpg);
-    display: block;
+
+.tamaño{
+    height: 300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
 }

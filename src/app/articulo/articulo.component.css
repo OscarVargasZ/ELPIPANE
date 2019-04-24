@@ -11,7 +11,23 @@ ul {
     width: 35%; 
     height:150px;
 }
+.centrar{
+    background-color: white;
+    border: black 2px solid;
+    text-align: center
+    
+}
 .caja{
     background-color: white;
-    border-color:black;
+    border: black 2px solid;
+    width: 30px;
+    text-align: center
+
+}
+.sinmarco{
+    padding-inline-start: 0px;
+    
+}
+.gris{
+    background-color: whitesmoke;
 }
