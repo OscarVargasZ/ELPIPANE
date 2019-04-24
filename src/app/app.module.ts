@@ -8,6 +8,7 @@ import { ColumnasComponent } from './columnas/columnas.component';
 import { LoginComponent } from './login/login.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { ArticuloComponent } from './articulo/articulo.component';
+import { CarrucelComponent } from './carrucel/carrucel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ArticuloComponent } from './articulo/articulo.component';
     ColumnasComponent,
     LoginComponent,
     CarritoComponent,
-    ArticuloComponent
+    ArticuloComponent,
+    CarrucelComponent
   ],
   imports: [
     BrowserModule,
