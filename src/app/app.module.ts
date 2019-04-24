@@ -7,6 +7,7 @@ import { BarraComponent } from './barra/barra.component';
 import { ColumnasComponent } from './columnas/columnas.component';
 import { LoginComponent } from './login/login.component';
 import { CarritoComponent } from './carrito/carrito.component';
+import { ArticuloComponent } from './articulo/articulo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CarritoComponent } from './carrito/carrito.component';
     BarraComponent,
     ColumnasComponent,
     LoginComponent,
-    CarritoComponent
+    CarritoComponent,
+    ArticuloComponent
   ],
   imports: [
     BrowserModule,
