@@ -1,0 +1,34 @@
+<div class="form-inline my-2 my-lg-0">
+  <ul class="nav">
+    <li class="cabeza"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logearse</button>
+      <ul class="a">
+          <li><div class="contenido" ng-controller="CtrlLogin" >
+              <h1>Iniciar Sesión</h1>
+              <p>Ingresa tus datos para entrar al sistema</p>
+              <hr/>
+      
+              <form name="formLogin" novalidate >
+                  <div>
+                      <b>Usuario</b><br/>
+                      <input type="text" ng-model="user" required />
+                  </div>
+                  <div>
+                      <b>Password</b><br/>
+                      <input type="password" ng-model="password" required/>
+                  </div>
+                  <div>
+                      <input type="submit" ng-click="validar()" />
+                  </div>
+              </form>
+              <hr/>
+              <ul>
+                  <li><a href="#">Registrarse</a></li>
+                  <li><a href="#">Recuperar Contraseña</a></li>
+              </ul>
+              {{mensaje}}
+          </div> </li>
+      </ul>
+    </li>
+   
+  </ul>
+</div>
