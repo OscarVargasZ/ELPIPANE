@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BarraComponent } from './barra/barra.component';
 import { ColumnasComponent } from './columnas/columnas.component';
 import { LoginComponent } from './login/login.component';
+import { CarritoComponent } from './carrito/carrito.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarraComponent,
     ColumnasComponent,
-    LoginComponent
+    LoginComponent,
+    CarritoComponent
   ],
   imports: [
     BrowserModule,

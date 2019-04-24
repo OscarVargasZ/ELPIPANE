@@ -1,0 +1,16 @@
+.navbar{
+    background:linear-gradient(90deg,#70d467 0,#6fbbfa)
+}
+p {
+    font-family: cursive;
+    top:3000px;
+}
+.a{
+    width: 90px;
+    height: 100px;
+}
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
