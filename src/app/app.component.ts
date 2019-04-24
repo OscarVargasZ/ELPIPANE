@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'LePane';
+  items: Array<any> = [];
+
+  constructor(){
+    this.items = [
+      { name: 'assets/imagenes/pan1.png'},
+      { name: 'assets/imagenes/pan2.png'},
+      { name: 'assets/imagenes/pan3.png'},
+      { name: 'assets/imagenes/pan4.png'},
+      { name: 'assets/imagenes/pan1.png'},
+      { name: 'assets/imagenes/pan2.png'},
+      { name: 'assets/imagenes/pan3.png'},
+      { name: 'assets/imagenes/pan4.png'}
+    ];
+  }  
 }

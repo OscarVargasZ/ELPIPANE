@@ -1,6 +1,26 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<app-barra></app-barra>
-<app-columnas></app-columnas>
-<router-outlet></router-outlet>
+<div id= "container">
+<div ng2-carouselamos class="slides-wrapper"
+    [items] = "items"
+    [width] = "900"
+    [$prev] = "prev"
+    [$Next] = "Next"
+    [$item] = "item">
+</div>
+
+<ng-template #prev>
+    <img src= "assets/imagenes/flecha-derecha" id= "derecha">
+</ng-template>
 
 
+<ng-template #prev>
+    <img src= "assets/imagenes/flecha-izquierda" id= "izquierda">
+</ng-template>
+
+<ng-template #item let-item let-i= "index">
+<div class="items">
+    <img src= "{{ item.name  }}">
+    
+</div>
+
+</ng-template>
+</div>
