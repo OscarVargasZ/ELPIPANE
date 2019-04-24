@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    position:relative;
+}
+.imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.LimiteTamaño {
+    width: 35%; 
+    height:150px;
+}
+.caja{
+    background-color: white;
+    border-color:black;
+}
