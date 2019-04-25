@@ -1,5 +1,10 @@
 .navbar{
-    background:linear-gradient(90deg,#70d467 0,#6fbbfa)
+    background:linear-gradient(90deg,#70d467 0,#6fbbfa);
+    position:fixed;
+    top: 0;
+    z-index: 1000;
+    right: 0;
+    left:0;
 }
 p {
     font-family: cursive;

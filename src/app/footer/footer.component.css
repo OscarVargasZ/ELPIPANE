@@ -1,19 +1,10 @@
-.footer{
-    background-color: green;
-    margin-top: 10px;
-}
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .wrapper {
-    min-height: 100%;
-  
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
-  }
-  .footer,
-  .push {
-    height: 50px;
-  }
+.elfooter{  
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    min-height: 10px;
+    background: linear-gradient(90deg,#70d467 0,#6fbbfa);
+}   
