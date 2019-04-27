@@ -1,5 +1,6 @@
-.col-md-4{
+.col-md-3{
     background-color:whitesmoke; 
+    
 }
 .tamaño{
     display: block;
@@ -7,4 +8,13 @@
     margin-right: auto; 
     margin-bottom: 0;
     width: 91.5%;
+}
+@media screen and (max-width: 560px) {
+    .col-md-3{
+        padding: 0px;
+    }
+    .row{
+    margin-right: 0px; 
+    margin-left: 0px; 
+    }
 }
