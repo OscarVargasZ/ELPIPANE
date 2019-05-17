@@ -9,7 +9,7 @@
         align-content: center;
     }
     .Imagen-Producto{
-        height:80%;
+        height:60px;
         align-content: center;  
         vertical-align: middle;
     }
@@ -21,7 +21,7 @@
         border: black 2px solid;
         text-align: center;
         height: 100%;
-        width: 160px;
+        width: px;
     }
     .caja{
         background-color: white;
@@ -45,11 +45,12 @@
         display: block;
     }
     .Imagen-Producto{
-        width: 100%;
-        height: 100%;
+        width: 40%;
+        height: 80%;
         display: table-cell;
-        align-content: none;  
-        vertical-align:none;
+        vertical-align: middle;
+        border-style: none;
+        display: inline-flex;
     }
     .Cuerpo-Producto{
         height:100%;
@@ -64,5 +65,14 @@
         display: inline-flex;
         
     }
-    
+    .Img{
+        box-sizing: border-box;
+        -ms-grid-column: 1;
+        grid-column: 1;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: span 2;
+        overflow: hidden;
+        position: relative;
+    }
 }

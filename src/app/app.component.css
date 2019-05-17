@@ -2,10 +2,10 @@ body{
     background-color:whitesmoke;
 } 
 .page-wapper{
-    margin: 130px 0px 58px 0px;
+    margin: 116px 0px 65px 0px;
 }
 @media screen and (max-width: 560px) {
     .page-wapper{
-        margin: 116px 0px 50px 0px;
+        margin: 116px 0px 65px 0px;
     }
 }
