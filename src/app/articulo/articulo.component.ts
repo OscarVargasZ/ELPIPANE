@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./articulo.component.css']
 })
 export class ArticuloComponent implements OnInit {
-
-  constructor() { }
-
+  constructor() { 
+  }
   ngOnInit() {
   }
-
 }
