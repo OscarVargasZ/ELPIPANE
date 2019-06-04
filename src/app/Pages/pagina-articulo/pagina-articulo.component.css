@@ -1,0 +1,22 @@
+.marco{
+    background-color: white;
+}
+.centrar{
+    text-align: center;    
+}
+.columna{
+    display: block;
+}
+.tamañoboton{
+    width: 24px;
+    height: 24px;
+}
+.caja{
+    background-color: white;
+    border: black 2px solid;
+    width: 30px;
+    text-align: center;     
+}
+.show-grid {
+       margin-right: 0px;
+}

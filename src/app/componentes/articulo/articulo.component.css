@@ -29,6 +29,10 @@
         width: 30px;
         text-align: center;     
     }
+    .tamañoboton{
+        width: 24px;
+        height: 24px;
+    }
     .sinmarco{
         padding-inline-start:0px;  
     }

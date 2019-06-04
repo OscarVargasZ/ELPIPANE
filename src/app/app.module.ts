@@ -10,6 +10,8 @@ import { CarritoComponent } from './componentes/carrito/carrito.component';
 import { ArticuloComponent } from './componentes/articulo/articulo.component';
 import { CarrucelComponent } from './componentes/carrucel/carrucel.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { PaginaArticuloComponent } from './Pages/pagina-articulo/pagina-articulo.component';
+import { HomePageComponent } from './Pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './componentes/footer/footer.component';
     CarritoComponent,
     ArticuloComponent,
     CarrucelComponent,
-    FooterComponent
+    FooterComponent,
+    PaginaArticuloComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
