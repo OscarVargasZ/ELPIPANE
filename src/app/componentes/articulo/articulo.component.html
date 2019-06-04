@@ -1,21 +1,21 @@
 <div class="Contenedor">
   <div class="Img">
-    <img src="assets/img/01-8.jpg" class="Imagen-Producto"  routerLink="articulo" >
+    <img src={{img}} class="Imagen-Producto"  routerLink="articulo" >
   </div>
   <ul class="general">
       <li class="Cuerpo-Producto">
           <ul class="sinmarco datos">
-              <li><p class="text">Nombre: {{Nombre}}</p></li>
-              <li><p class="text">Precio: {{Precio}} c/u</p></li>
+              <li><p class="text">Nombre: {{nombre}}</p></li>
+              <li><p class="text">Precio: {{precio}} c/u</p></li>
           </ul>
       </li>
       <li class="bottones">
             <div>
-              <button class="tamañoboton">-</button>
-              <label class="caja">1</label>
-              <button class="tamañoboton">+</button>
+              <button (click)="Restar()" class="tamañoboton">-</button>
+              <label class="caja">{{cantidad}}</label>
+              <button (click)="Aumentar()" class="tamañoboton" >+</button>
             </div>
-          <button><img/>Agregar</button>
+          <button (click)="Agregar()"><img/>Agregar</button>
       </li>
    </ul>
 </div>

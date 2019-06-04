@@ -3,20 +3,20 @@
     <img src="assets/img/01-8.jpg" class="marco">
   </div>
   <div class="col-md-4 columna">
-    <h4>Pan Ayuya</h4>
-    <h4>Precio:</h4>
+    <h4>{{nombre}}</h4>
+    <h4>Precio: {{precio}}</h4>
     <label></label>
     <div>
-      <button class="tamañoboton">-</button>
-      <label class="caja">1</label>
-      <button class="tamañoboton">+</button>
+      <button (click)="Restar()" class="tamañoboton">-</button>
+      <label class="caja">{{cantidad}}</label>
+      <button (click)="Aumentar()" class="tamañoboton">+</button>
       
     </div>
-    <button><img/>Agregar</button>
+    <button (click)="Agregar()"><img/>Agregar</button>
   </div>
 </div>
 <h1 class="product-description-title">Descripcion</h1>
 <hr >
 <div>
-  <h4>La info</h4>
+  <h4>{{Informacion}}</h4>
 </div>

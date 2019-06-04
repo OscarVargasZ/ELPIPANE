@@ -12,9 +12,7 @@ export class ArticuloService {
   constructor(private htttp: HttpClient) {}
 
   headers: HttpHeaders = new HttpHeaders({
-
     "Content-Type": "application/json"
-
   });
-
+  
 }
