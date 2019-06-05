@@ -1,0 +1,10 @@
+.elfooter{  
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    min-height: 10px;
+    background: linear-gradient(90deg,#70d467 0,#6fbbfa);
+}   

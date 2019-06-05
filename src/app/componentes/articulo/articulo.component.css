@@ -1,0 +1,82 @@
+
+    ul {
+        list-style-type: none;
+    }
+    .imagen{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        align-content: center;
+    }
+    .Imagen-Producto{
+        height:60px;
+        align-content: center;  
+        vertical-align: middle;
+    }
+    .Cuerpo-Producto{
+        height:20%;
+    }
+    .Contenedor{
+        background-color: white;
+        border: black 2px solid;
+        text-align: center;
+        height: 100%;
+        width: px;
+    }
+    .caja{
+        background-color: white;
+        border: black 2px solid;
+        width: 30px;
+        text-align: center;     
+    }
+    .tamañoboton{
+        width: 24px;
+        height: 24px;
+    }
+    .sinmarco{
+        padding-inline-start:0px;  
+    }
+@media screen and (max-width: 760px) {
+    
+}
+@media screen and (max-width: 560px) {
+    .Contenedor{
+        background-color: white;
+        border: black 2px solid;
+        height: 60pxpx; 
+        width: 100%;
+        float:left;
+        display: block;
+    }
+    .Imagen-Producto{
+        width: 40%;
+        height: 80%;
+        display: table-cell;
+        vertical-align: middle;
+        border-style: none;
+        display: inline-flex;
+    }
+    .Cuerpo-Producto{
+        height:100%;
+        width: 100%;
+        display:-webkit-box;
+    }
+    .general{
+        display: flex;
+        list-style: none;
+    }
+    .bottones{
+        display: inline-flex;
+        
+    }
+    .Img{
+        box-sizing: border-box;
+        -ms-grid-column: 1;
+        grid-column: 1;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: span 2;
+        overflow: hidden;
+        position: relative;
+    }
+}

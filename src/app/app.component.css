@@ -1,0 +1,14 @@
+body{
+    background-color:whitesmoke;
+} 
+.page-wapper{
+    margin: 116px 0px 65px 0px;
+}
+.page-wapper {
+    margin-right: 0px;
+}
+@media screen and (max-width: 560px) {
+    .page-wapper{
+        margin: 116px 0px 65px 0px;
+    }
+}

@@ -1,0 +1,22 @@
+<div class="row show-grid">
+  <div class="col-md-8 centrar">
+    <img src="assets/img/01-8.jpg" class="marco">
+  </div>
+  <div class="col-md-4 columna">
+    <h4>{{nombre}}</h4>
+    <h4>Precio: {{precio}}</h4>
+    <label></label>
+    <div>
+      <button (click)="Restar()" class="tamañoboton">-</button>
+      <label class="caja">{{cantidad}}</label>
+      <button (click)="Aumentar()" class="tamañoboton">+</button>
+      
+    </div>
+    <button (click)="Agregar()"><img/>Agregar</button>
+  </div>
+</div>
+<h1 class="product-description-title">Descripcion</h1>
+<hr >
+<div>
+  <h4>{{Informacion}}</h4>
+</div>
