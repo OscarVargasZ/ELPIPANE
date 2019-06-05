@@ -1,0 +1,38 @@
+<div class="form-inline my-2 my-lg-0">
+    <ul class="nav">
+      <li class="cabeza"><button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="https://img.icons8.com/metro/26/000000/enter-2.png"></button>
+        <ul class="a">
+            <li><div class="marco" ng-controller="CtrlLogin" >
+                <h1>Iniciar Sesión</h1>
+                <p>Ingresa tus datos para entrar al sistema</p>
+                <hr/>
+        
+                <form #formLogin="ngForm" (ngSubmit)="login()">
+                    <div>
+                        <b>Usuario</b><br/>
+                        <input type="text" [(ngModel)]="user.name" name="name" required />
+                    </div>
+                    <div>
+                        <b>Correo</b><br/>
+                        <input type="email" [(ngModel)]="user.email" name="email" required />
+                    </div>
+                    <div>
+                        <b>Password</b><br/>
+                        <input type="password" [(ngModel)]="user.password" name="password" required/>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-lg btn-primary btn-block" routerLink="perfil">Log in</button>
+                    </div>
+                </form>
+                <hr/>
+                <ul>
+                    <li><button type="submit" class="btn btn-lg btn-primary btn-block" routerLink="registro">Registro</button></li>
+                    <li><a href="#">Recuperar Contraseña</a></li>
+                </ul>
+                {{mensaje}}
+            </div> </li>
+        </ul>
+      </li>
+     
+    </ul>
+  </div>
