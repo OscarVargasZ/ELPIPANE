@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ArticuloService } from 'src/app/servicios/articulo.service';
+import { Observable } from 'rxjs';
+import { ArticuloInterface } from 'src/app/Model/articulos-interface';
 
 @Component({
   selector: 'app-articulo',
@@ -13,11 +16,17 @@ export class ArticuloComponent implements OnInit {
   img="";
   cantidad:number;
 
-  constructor() { 
+  
+  constructor(private artservices: ArticuloService) { 
     this.cantidad=0;
     this.precio=100;
     this.nombre="no asignado";
     this.img="assets/img/01-8.jpg";
+  }
+  BuscarDatosSegunID(id:number){
+    var d:ArticuloInterface[];
+    this.artservices.getArticuloPorId(2)
+
   }
   Aumentar(){
     this.cantidad++;
@@ -36,7 +45,7 @@ export class ArticuloComponent implements OnInit {
     this.cantidad=0;
   }
   ngOnInit() {
-
+    this.BuscarDatosSegunID(2);
   }
 
 }

@@ -12,6 +12,8 @@ import { CarrucelComponent } from './componentes/carrucel/carrucel.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { PaginaArticuloComponent } from './Pages/pagina-articulo/pagina-articulo.component';
 import { HomePageComponent } from './Pages/home-page/home-page.component';
+import { ArticuloService } from './servicios/articulo.service';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +33,7 @@ import { HomePageComponent } from './Pages/home-page/home-page.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ArticuloService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
