@@ -14,6 +14,7 @@ import { PaginaArticuloComponent } from './Pages/pagina-articulo/pagina-articulo
 import { HomePageComponent } from './Pages/home-page/home-page.component';
 import { ArticuloService } from './servicios/articulo.service';
 
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ArticuloService } from './servicios/articulo.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [ArticuloService],
   bootstrap: [AppComponent]

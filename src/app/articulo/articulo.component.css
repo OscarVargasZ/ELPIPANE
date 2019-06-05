@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+}
+.imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.LimiteTamaño {
+    width: 35%; 
+    height:150px;
+}
+.centrar{
+    background-color: white;
+    border: black 2px solid;
+    text-align: center
+    
+}
+.caja{
+    background-color: white;
+    border: black 2px solid;
+    width: 30px;
+    text-align: center
+
+}
+.sinmarco{
+    padding-inline-start: 0px;
+    
+}
+.gris{
+    background-color: whitesmoke;
+}
