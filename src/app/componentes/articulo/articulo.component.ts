@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ArticuloService } from 'src/app/servicios/articulo.service';
 import { Observable } from 'rxjs';
 import { ArticuloInterface } from 'src/app/Model/articulos-interface';
@@ -8,9 +8,10 @@ import { ArticuloInterface } from 'src/app/Model/articulos-interface';
   templateUrl: './articulo.component.html',
   styleUrls: ['./articulo.component.css']
 })
+
 export class ArticuloComponent implements OnInit {
-  id=0;
-  nombre = "";
+   id:number;
+  nombre:string;
   descripcion="";
   precio:number;
   img="";
@@ -19,13 +20,17 @@ export class ArticuloComponent implements OnInit {
   
   constructor(private artservices: ArticuloService) { 
     this.cantidad=0;
-    this.precio=100;
-    this.nombre="no asignado";
-    this.img="assets/img/01-8.jpg";
+
+
   }
   BuscarDatosSegunID(id:number){
     var d:ArticuloInterface[];
-    this.artservices.getArticuloPorId(2)
+    this.artservices.getArticuloPorId(2).subscribe( data => {
+      this.precio = data.precio;
+      this.descripcion = data.descripcion;
+      this.img = data.img;
+      this.nombre = data.nombre;
+    } );
 
   }
   Aumentar(){
@@ -47,5 +52,4 @@ export class ArticuloComponent implements OnInit {
   ngOnInit() {
     this.BuscarDatosSegunID(2);
   }
-
 }
