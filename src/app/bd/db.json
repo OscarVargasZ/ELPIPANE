@@ -4,71 +4,71 @@
             "id":1,
             "nombre":"Pan Avena Miel",
             "descripcion": "Pan integral con trozos de avena bañados en miel",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/60000/velka/bread-and-butter.jpg#.XPXkvigv4R0.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/60000/velka/bread-and-butter.jpg#.XPXkvigv4R0.link",
+            "precio":"110"
         },
         {
             "id":2,
             "nombre":"Baguette",
             "descripcion": "Largo y crujiente pan baguette para las onces",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/40000/velka/fresh-baguette.jpg#.XPXlHUe4cnQ.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/40000/velka/fresh-baguette.jpg#.XPXlHUe4cnQ.link",
+            "precio":"80"
         },
         {
             "id":3,
             "nombre":"Pan Bollito",
             "descripcion": "Pequeños boollos dulces",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/10000/velka/296-1259441122ytaZ.jpg#.XPXlfKq1Ih0.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/10000/velka/296-1259441122ytaZ.jpg#.XPXlfKq1Ih0.link",
+            "precio":"90"
         },
         {
             "id":4,
             "nombre":"Pan Rustico",
             "descripcion": "Toda la magia rustica en un solo Pan",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/220000/velka/public-domain-pictures-1494403345Ao9.jpg#.XPXoyxGC5hM.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/220000/velka/public-domain-pictures-1494403345Ao9.jpg#.XPXoyxGC5hM.link",
+            "precio":"140"
         },
         {
             "id":5,
             "nombre":"Pan variedades",
             "descripcion": "Variedad de pan",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/230000/velka/bread-150280800943M.jpg#.XPX3YIXoQyY.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/230000/velka/bread-150280800943M.jpg#.XPX3YIXoQyY.link",
+            "precio":"160"
         },
         {
             "id":6,
             "nombre":"Pan variedades Rusticas",
             "descripcion": "Toda la magia rustica en una variedad de panes",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/290000/velka/fresh-baked-bread-in-the-bakery.jpg#.XPX4MzO66_I.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/290000/velka/fresh-baked-bread-in-the-bakery.jpg#.XPX4MzO66_I.link",
+            "precio":"540"
         },
         {
             "id":7,
             "nombre":"Trigo",
             "descripcion": "Trigo de la mejor calidad para nuestros panes",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/30000/velka/golden-wheat-field-1354390133xGa.jpg#.XPX35z8DuFk.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/30000/velka/golden-wheat-field-1354390133xGa.jpg#.XPX35z8DuFk.link",
+            "precio":"30"
         },
         {
             "id":8,
             "nombre":"Variedad pan Dulce",
             "descripcion": "Dulce pan!",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/30000/velka/breadbuncroissantraisin-bread.jpg#.XPX4WAB5z_o.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/30000/velka/breadbuncroissantraisin-bread.jpg#.XPX4WAB5z_o.link",
+            "precio":"100"
         },
         {
             "id":9,
             "nombre":"Personalzia tu PAN!",
             "descripcion": "Dulce pan! Personalizado",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/20000/velka/the-baking-of-bread.jpg#.XPX4kTmD2dQ.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/20000/velka/the-baking-of-bread.jpg#.XPX4kTmD2dQ.link",
+            "precio":"1200"
         },
         {
             "id":10,
             "nombre":"Tostadas",
             "descripcion": "Dulce pan! Personalizado",
-            "img":"assets/img/https://www.publicdomainpictures.net/pictures/30000/velka/toaster-and-slices-of-bread-1349840456YZs.jpg#.XPX4yEbsqcY.link",
-            "precio":"300"
+            "img":"https://www.publicdomainpictures.net/pictures/30000/velka/toaster-and-slices-of-bread-1349840456YZs.jpg#.XPX4yEbsqcY.link",
+            "precio":"80"
         }
     ],
     "Usuarios": [
@@ -204,8 +204,8 @@
           "password": "sadasdsad",
           "id": 23
         }
-      ],
-      "logs": [
+    ],
+    "logs": [
         {
           "email": "dssdd",
           "password": "sadsdd",
@@ -396,5 +396,5 @@
           "password": "sadasdasdsdsa",
           "id": 38
         }
-      ]
+    ]
 }

@@ -1,3 +1,23 @@
 .show-grid {
     margin-right: 0px;
 }
+.col-md-3{
+    background-color:whitesmoke; 
+    
+}
+.tamaño{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 0;
+    width: 90%;
+}
+@media screen and (max-width: 560px) {
+    .col-md-3{
+        padding: 0px;
+    }
+    .row{
+    margin-right: 0px; 
+    margin-left: 0px; 
+    }
+}

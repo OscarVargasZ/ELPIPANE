@@ -8,30 +8,24 @@ import { ArticuloInterface } from 'src/app/Model/articulos-interface';
   templateUrl: './articulo.component.html',
   styleUrls: ['./articulo.component.css']
 })
-
 export class ArticuloComponent implements OnInit {
-   id:number;
+  @Input() id:number;
   nombre:string;
   descripcion="";
   precio:number;
   img="";
   cantidad:number;
-
-  
   constructor(private artservices: ArticuloService) { 
     this.cantidad=0;
-
-
   }
-  BuscarDatosSegunID(id:number){
+  BuscarDatosSegunID(){
     var d:ArticuloInterface[];
-    this.artservices.getArticuloPorId(2).subscribe( data => {
+    this.artservices.getArticuloPorId(this.id).subscribe( data => {
       this.precio = data.precio;
       this.descripcion = data.descripcion;
       this.img = data.img;
       this.nombre = data.nombre;
     } );
-
   }
   Aumentar(){
     this.cantidad++;
@@ -50,6 +44,6 @@ export class ArticuloComponent implements OnInit {
     this.cantidad=0;
   }
   ngOnInit() {
-    this.BuscarDatosSegunID(2);
+    this.BuscarDatosSegunID();
   }
 }
