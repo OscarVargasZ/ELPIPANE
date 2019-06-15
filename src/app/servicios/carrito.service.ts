@@ -16,4 +16,7 @@ export class CarritoService {
     return this.htttp.get<ArticuloClienteInterface>(url_api);
 
   }
+  Add(username:string,articuloid:number,cantidad:number){
+    //Hay que realizar consulta una consulta a la api rest
+  }
 }

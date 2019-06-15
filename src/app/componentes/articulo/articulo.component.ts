@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ArticuloService } from 'src/app/servicios/articulo.service';
 import { Observable } from 'rxjs';
 import { ArticuloInterface } from 'src/app/Model/articulos-interface';
-
+import {CarritoService} from 'src/app/servicios/carrito.service'
 @Component({
   selector: 'app-articulo',
   templateUrl: './articulo.component.html',
@@ -15,7 +15,7 @@ export class ArticuloComponent implements OnInit {
   precio:number;
   img="";
   cantidad:number;
-  constructor(private artservices: ArticuloService) { 
+  constructor(private artservices: ArticuloService,private carrito: CarritoService) { 
     this.cantidad=0;
   }
   BuscarDatosSegunID(){
@@ -37,7 +37,11 @@ export class ArticuloComponent implements OnInit {
     }
   }
   Agregar(){
-    //falta agregar los datos al carrito
+    //hay que validar si el usuario esta conectado
+      //falta agregar los datos al carrito llamar carrito
+    this.carrito.Add("p",this.id,this.cantidad);
+    //si no esta conectado ofrecerle login
+
     this.cantidad=0;
   }
   Cancelar(){
