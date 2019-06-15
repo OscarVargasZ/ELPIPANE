@@ -399,8 +399,15 @@
     ],
     "Carrito":[
       {
-        "idart":1,
-        "nombre":"p"
+        "id":"p",
+        "idProducto":1,
+        "cantidad":30
+      },
+      {
+        "id":"p",
+        "iduser":"p",
+        "idProducto":2,
+        "cantidad":30
       }
     ]
     

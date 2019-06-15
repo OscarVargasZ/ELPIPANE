@@ -1,19 +1,31 @@
-<div class="form-inline my-2 my-lg-0">
-    <ul class="nav">
-      <li class="cabeza"><button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="https://img.icons8.com/android/24/000000/shopping-cart.png"></button>
-        <ul class="a">
-            <li><div class="contenido" ng-controller="CtrlLogin" >
-                <h3>Carrito de compras</h3>
-                <hr/>
-        
-                <form name="formLogin" novalidate >
-                </form>
-                <hr/>
-                <h5>Total: {{precio}}</h5>
-                {{mensaje}}
-            </div> </li>
-        </ul>
-      </li>
-     
-    </ul>
-  </div>
+
+<div class="form-inline my-2 my-lg-0"> 
+  <ul class="nav">
+    <li class="cabeza"><button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="https://img.icons8.com/android/24/000000/shopping-cart.png"></button>
+      <ul class="a">  
+        <div class="marco">     
+          <li>
+            <div class="contenido" ng-controller="CtrlLogin">            
+              <h3>Carrito de compras</h3>              
+              <hr/>   
+              <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>costo</th>
+                  </tr>
+              </thead>
+              <tbody *ngFor="let b of carrito">
+                    <app-articulo-carro [id]="b.idProducto" [cantidad]="b.cantidad"></app-articulo-carro>
+                    
+              </tbody>          
+              <hr/>
+              <h5>Total: {{ptotal}}</h5>
+            </div> 
+          </li>
+        </div>
+      </ul>
+    </li> 
+  </ul>
+</div>

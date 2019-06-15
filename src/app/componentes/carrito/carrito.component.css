@@ -7,16 +7,33 @@ li.despegable{
 }
 .nav li ul.a{
     display: none;
-    
 }
 .nav li:hover > ul.a{
     display: block;
     z-index: 20000;
    position: fixed;
-   background: white;
+   background:transparent;
    right: 10px;
 } 
 .btn-outline-success
 {
     border-color: transparent;
+}
+
+.tamaño
+{
+    width: 1000px; 
+    height: 100%;
+}
+
+.marco
+{
+    background-color:white;
+    border: green 5px solid;
+    text-align: center
+}
+
+.contenedor
+{
+    background-color: transparent;
 }

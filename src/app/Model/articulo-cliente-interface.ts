@@ -1,4 +1,5 @@
-export interface ArticuloInterface{
-    idart?: number;
-    nombre?: number;
+export interface ArticuloClienteInterface{
+    id?: string;
+    idProducto?: number;
+    cantidad?:number;
 }

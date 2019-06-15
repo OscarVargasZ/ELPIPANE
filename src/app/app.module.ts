@@ -12,7 +12,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { PaginaArticuloComponent } from './Pages/pagina-articulo/pagina-articulo.component';
 import { HomePageComponent } from './Pages/home-page/home-page.component';
 import { ArticuloService } from './servicios/articulo.service';
-
+import { ArticuloCarroComponent } from './componentes/articulo-carro/articulo-carro.component';
+import {CarritoService} from './servicios/carrito.service';
 
 @NgModule({
   declarations: [
@@ -24,14 +25,15 @@ import { ArticuloService } from './servicios/articulo.service';
     CarrucelComponent,
     FooterComponent,
     PaginaArticuloComponent,
-    HomePageComponent
+    HomePageComponent,
+    ArticuloCarroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [ArticuloService],
+  providers: [ArticuloService,CarritoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
